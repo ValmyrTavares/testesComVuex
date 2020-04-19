@@ -1,27 +1,23 @@
 <template>
   <div id="app">
- <Curso/>
- <Aluno/>
- <Form/>
- {{$store.state.usuario.nome}}
- {{$store.state.usuario.nacionalidade}}
- {{$store.state.usuario.estadoCivil}}
+<h1>Lady Gaga</h1> 
+<router-view></router-view>
 
   </div>
 </template>
 
 <script>
-import Aluno from '@/components/Aluno.vue'
-import Curso from '@/components/Curso.vue'
-import Form from '@/components/form.vue'
-
+ 
+//  import Neta from '@/components/Neta.vue'
+  //import Sobrinha from '@/components/Sobrinha'
 
 export default {
   name: 'App',
   components: {
-  Aluno,
-  Curso,
-  Form
+//Filha, 
+//Neta,
+//Sobrinha
+
   }
 }
 </script>
