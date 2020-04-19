@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-<h1>Lady Gaga</h1> 
+<h2>nome{{$store.state.usuario.nome}}</h2> 
+<h2>Nacionalidade: {{$store.state.usuario.nacionalidade}}</h2>
+<h2>cor: {{$store.state.usuario.cor}}</h2>
+
 <router-view></router-view>
 
   </div>

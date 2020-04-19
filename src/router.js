@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Filha from '@/components/Filha'
+//import Filha from '@/components/Filha'
 import busca from '@/components/busca'
+import MaeDoFormulario from '@/components/MaeDoFormulario'
 
 Vue.use(Router)
 
@@ -12,8 +13,8 @@ export default new Router ({
     routes:[
         {
             path: "/",
-            name:"Filha",
-            component:Filha,
+            name:"MaeDoFormulario",
+            component:MaeDoFormulario,
             children:[
             {
                 path: ":busca",
